@@ -1,0 +1,36 @@
+.splendid-flowers {
+    /*padding: 20px;*/
+}
+.splendid-flowers__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    align-items: center;  
+}
+
+.splendid-flowers__title {
+    font-size: 56px;
+    line-height: 67px;
+}
+
+.splendid-flowers__paragraph {
+    font-size: 18px;
+}
+
+.splendid-flowers__image {
+    max-width: 100%;
+}
+
+@media (min-width: 770px) {
+    .splendid-flowers__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .splendid-flowers__title {
+        font-size: 70px;
+        line-height: 84px;
+    }
+    .splendid-flowers__image {
+        max-width: 100%;
+        height: auto;
+    }
+}

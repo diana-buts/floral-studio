@@ -1,0 +1,37 @@
+.header {
+    min-width: 320px;
+}
+.header__container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    min-height: 135px;
+}
+
+.header__logo {
+    margin-right: 10px;
+}
+
+.header__nav-items {
+    display: flex;
+    gap: 10px; 
+}
+
+.header__nav-link,
+.header__link {
+    color: var(--main-text-color);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header__link {
+    margin-left: 50px;
+}
+
+.header__nav-social-items {
+    display: flex;
+    gap: 10px;
+}
+
