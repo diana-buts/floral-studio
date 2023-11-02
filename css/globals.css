@@ -9,6 +9,7 @@
 }
 
 :root {
+    --card-background-color: #FFF;
     --main-text-color: #313053;
     --add-text-color: #817E8F;
     --text-font: 'Poppins', sans-serif;
