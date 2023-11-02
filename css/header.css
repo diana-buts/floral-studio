@@ -8,6 +8,7 @@
     justify-content: space-between;
     white-space: nowrap;
     min-height: 135px;
+    width: 100%;
 }
 
 .header__logo {
